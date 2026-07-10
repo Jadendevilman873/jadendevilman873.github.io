@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Alo ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="background"></div>
+    <div id="hearts"></div>
+    <div id="particles"></div>
+    <div id="lights"></div>
+
+    <section id="welcome">
+        <div class="welcome-content">
+            <span class="smallText">Una pequeña sorpresa...</span>
+            <h1>Para Alo</h1>
+            <h2>❤️</h2>
+            <p>Hay cosas que simplemente no caben en un mensaje...<br><br>Así que decidí hacerte algo diferente.</p>
+            
+            <div id="envelope">
+                <div class="envelopeGlow"></div>
+                <div id="paper">
+                    <div class="paperHeart">❤️</div>
+                </div>
+                <div class="lid"></div>
+                <div class="front"></div>
+                <div class="shadow"></div>
+            </div>
+
+            <!-- Botón fuera del div envelope para evitar conflictos -->
+            <button id="openLetter">Abrir Carta 💌</button>
+        </div>
+    </section>
+
+    <section id="letterPage">
+        <div id="paperFull">
+            <div class="paperHeader">
+                <h2>Para ti ❤️</h2>
+                <span>Con mucho cariño...</span>
+            </div>
+            <div class="photoFrame">
+            </div>
+            <div id="typingText"></div>
+            <div class="scrollDown">↓</div>
+        </div>
+    </section>
+
+    <audio id="music" loop><source src="twenty fondo.mp3" type="audio/mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
